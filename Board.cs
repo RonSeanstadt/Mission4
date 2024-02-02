@@ -90,9 +90,7 @@ namespace TicTacToe
             }
 
             // No winner
-            //return '\0';
-
-            return 'y';
+            return '\0';
 
         }
     }
