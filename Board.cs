@@ -20,7 +20,7 @@ namespace TicTacToe
         /// </summary>
         /// <param>3x3 2-dimensional array</param>
         /// <returns>Null</returns>
-        public static void Print(char[,] board)
+        public void Print(char[,] board)
         {
             for (int i = 0; i < 3; i++)
             {
@@ -58,7 +58,7 @@ namespace TicTacToe
         /// </summary>
         /// <param>3x3 2-dimensional array</param>
         /// <returns>Null</returns>
-        public static char CheckForWinner(char[,] board)
+        public char CheckForWinner(char[,] board)
         {
             // Check diagonals
             if (board[0, 0] == board[1, 1] && board[1, 1] == board[2, 2])
